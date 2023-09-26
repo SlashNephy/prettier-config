@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'fs/promises'
 import { join } from 'path'
 import { cwd } from 'process'
 
-const bumpVersion = async () => {
+async function bumpVersion(): Promise<void> {
   const path = join(cwd(), 'package.json')
   const content = await readFile(path, 'utf-8')
   const packageJson = JSON.parse(content) as { version: string }
