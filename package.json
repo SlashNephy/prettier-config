@@ -20,7 +20,7 @@
   "scripts": {
     "build": "tsc",
     "bump-version": "ts-node bin/bump-version.ts",
-    "clean": "rm -rf src/",
+    "clean": "rm -rf src/**/*.js",
     "format": "concurrently -m 1 -n format: 'yarn:format:*'",
     "format:eslint": "yarn lint:eslint --fix",
     "format:prettier": "yarn lint:prettier --write",
