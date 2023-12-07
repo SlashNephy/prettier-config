@@ -33,7 +33,7 @@
     "prettier": "^3"
   },
   "devDependencies": {
-    "@slashnephy/eslint-config": "2.0.75",
+    "@slashnephy/eslint-config": "2.0.76",
     "@types/node": "20.10.3",
     "@types/prettier": "2.7.3",
     "concurrently": "8.2.2",
