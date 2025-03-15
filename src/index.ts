@@ -1,6 +1,6 @@
 import type { Config } from 'prettier'
 
-module.exports = {
+const config = {
   semi: false,
   singleQuote: true,
   jsxSingleQuote: false,
@@ -31,3 +31,6 @@ module.exports = {
     },
   ],
 } satisfies Config
+
+// eslint-disable-next-line import/no-default-export
+export default config
